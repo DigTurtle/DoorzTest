@@ -4,26 +4,43 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
 /* 
-    Created on : Mar 29, 2015, 3:05:57 PM
+    Created on : Mar 28, 2015, 3:03:59 PM
     Author     : Justisin7
 */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
+.all{
+    
+    background:#F5F5F5;
+    font-family: 'Open Sans', sans-serif;
+    /*
+    	margin: 25px auto;
+	text-align: center;
+	text-shadow: -1px -1px 0px rgba(100,100,100,0.3), 1px 1px 0px rgba(0,0,0,0.8);
+	color: #333;
+	opacity: 0.4;
+	font: 350 40px 'Bitter';*/
+}
 
-body {
-                background-color: #FFF;
-                margin: 30px;
-                margin-top: 10px;
-            }
-            #contentContainer {
-                width: 550px;
-                height: 350px;
-                border: 5px black solid;
-                overflow: hidden;
-                background-color: #F2F2F2;
-                cursor: pointer;
-            }
-            #thing {
-                position: relative;
-                left: 50px;
-                top: 50px;
-                transition: left .5s ease-in, top .5s ease-in;
-            }
+.outerLink 
+{
+    opacity:1;
+    filter:alpha(opacity=100);
+    width:200px;
+}
+
+img.darkableImage 
+{
+    opacity:1;
+    filter:alpha(opacity=100);
+}
+
+/*Menu*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}

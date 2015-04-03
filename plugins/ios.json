@@ -63,6 +63,22 @@
                         {
                             "xml": "<feature name=\"NetworkStatus\"><param name=\"ios-package\" value=\"CDVConnection\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Globalization\"><param name=\"ios-package\" value=\"CDVGlobalization\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Accelerometer\"><param name=\"ios-package\" value=\"CDVAccelerometer\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Notification\"><param name=\"ios-package\" value=\"CDVNotification\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Compass\"><param name=\"ios-package\" value=\"CDVCompass\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -72,7 +88,7 @@
                     "AudioToolbox.framework": [
                         {
                             "xml": true,
-                            "count": 1
+                            "count": 2
                         }
                     ],
                     "CoreGraphics.framework": [
@@ -90,7 +106,7 @@
                     "CoreLocation.framework": [
                         {
                             "xml": false,
-                            "count": 2
+                            "count": 3
                         }
                     ],
                     "AssetsLibrary.framework": [
@@ -120,6 +136,12 @@
                     "SystemConfiguration.framework": [
                         {
                             "xml": true,
+                            "count": 1
+                        }
+                    ],
+                    "CoreMotion.framework": [
+                        {
+                            "xml": false,
                             "count": 1
                         }
                     ]
@@ -172,6 +194,18 @@
             "PACKAGE_NAME": "com.coolappz.DoorzTest"
         },
         "org.apache.cordova.network-information": {
+            "PACKAGE_NAME": "com.coolappz.DoorzTest"
+        },
+        "org.apache.cordova.globalization": {
+            "PACKAGE_NAME": "com.coolappz.DoorzTest"
+        },
+        "org.apache.cordova.device-motion": {
+            "PACKAGE_NAME": "com.coolappz.DoorzTest"
+        },
+        "org.apache.cordova.dialogs": {
+            "PACKAGE_NAME": "com.coolappz.DoorzTest"
+        },
+        "org.apache.cordova.device-orientation": {
             "PACKAGE_NAME": "com.coolappz.DoorzTest"
         }
     },
